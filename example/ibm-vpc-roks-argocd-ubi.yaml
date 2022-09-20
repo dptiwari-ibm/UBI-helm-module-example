@@ -74,6 +74,6 @@ spec:
           value: "iascable-gitops-ubi"
     # Install ubi
     # New custom module linked be the custom catalog
-    - name: terraform-gitops-ubi
-      alias: terraform-gitops-ubi
+    - name: template-terraform-gitops
+      alias: template-terraform-gitops
       #version: v0.0.1

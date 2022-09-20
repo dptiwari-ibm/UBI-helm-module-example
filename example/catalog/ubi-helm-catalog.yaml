@@ -8,10 +8,10 @@ categories:
       - cloudProvider: ""
         softwareProvider: ""
         type: gitops
-        id: github.com/dptiwari-ibm/terraform-gitops-ubi
+        id: github.com/dptiwari-ibm/template-terraform-gitops
         group: ""
-        displayName: terraform-gitops-ubi
-        name: terraform-gitops-ubi
+        displayName: template-terraform-gitops
+        name: template-terraform-gitops
         description: "That module will add a new 'Argo CD config' to deploy a 'ubi' container to OpenShift"
         tags:
           - tools
@@ -135,4 +135,4 @@ categories:
               - name: layer
                 description: The layer where the module is deployed
               - name: type
-                description: The type of module where the module is deployed
+                description: The type of module where the module is deployed  
