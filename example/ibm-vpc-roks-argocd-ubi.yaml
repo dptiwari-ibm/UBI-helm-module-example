@@ -12,9 +12,9 @@ spec:
       version: v1.16.1
       variables:
       - name: name
-        value: "tsued-gitops-ubi"
+        value: "dpt-gitops-ubi"
       - name: tags
-        value: ["tsuedro"]
+        value: ["dpt"]
     - name: ibm-vpc-subnets
       alias: ibm-vpc-subnets
       version: v1.13.2
@@ -22,9 +22,9 @@ spec:
         - name: _count
           value: 1
         - name: name
-          value: "tsued-gitops-ubi"
+          value: "dpt-gitops-ubi"
         - name: tags
-          value: ["tsuedro"]
+          value: ["dpt"]
     - name: ibm-vpc-gateways
     # ROKS - related
     # - objectstorage
@@ -33,21 +33,21 @@ spec:
       version: v1.15.7
       variables:
         - name: name
-          value: "tsued-gitops-ubi"
+          value: "dpt-gitops-ubi"
         - name: worker_count
           value: 2
         - name: tags
-          value: ["tsuedro"]
+          value: ["dpt"]
     - name: ibm-object-storage
       alias: ibm-object-storage
       version: v4.0.3
       variables:
         - name: name
-          value: "cos_tsued_ubi"
+          value: "cos_dpt_ubi"
         - name: tags
-          value: ["tsuedro"]
+          value: ["dpt"]
         - name: label
-          value: ["cos_tsued_ubi"]
+          value: ["cos_dpt_ubi"]
     # Install OpenShift GitOps and Bootstrap GitOps (aka. ArgoCD) - related
     # - argocd
     # - gitops
@@ -65,9 +65,9 @@ spec:
         - name: type
           value: "GIT"
         - name: org
-          value: "thomassuedbroecker"
+          value: "dptiwari-ibm"
         - name: username
-          value: "thomassuedbroecker"
+          value: "dptiwari-ibm"
         - name: project
           value: "iascable-gitops-ubi"
         - name: repo
@@ -76,4 +76,4 @@ spec:
     # New custom module linked be the custom catalog
     - name: terraform-gitops-ubi
       alias: terraform-gitops-ubi
-      version: v0.0.2
+      version: v0.0.1
