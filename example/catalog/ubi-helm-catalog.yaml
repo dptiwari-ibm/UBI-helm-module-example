@@ -9,7 +9,7 @@ categories:
         softwareProvider: ""
         type: gitops
         id: github.com/dptiwari-ibm/template-terraform-gitops
-        group: ""
+        group: "dptiwari-ibm"
         displayName: template-terraform-gitops
         name: template-terraform-gitops
         description: "That module will add a new 'Argo CD config' to deploy a 'ubi' container to OpenShift"
