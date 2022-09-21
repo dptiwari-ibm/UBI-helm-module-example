@@ -76,4 +76,4 @@ spec:
     # New custom module linked be the custom catalog
     - name: template-terraform-gitops
       alias: template-terraform-gitops
-      version: v0.0.1
+      #version: v0.0.1
