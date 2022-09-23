@@ -7,6 +7,8 @@ spec:
     # Virtual Private Cloud - related
     # - subnets
     # - gateways
+    - name: ibm-resource-group
+      version: v3.3.4
     - name: ibm-vpc
       alias: ibm-vpc
       version: v1.16.1
