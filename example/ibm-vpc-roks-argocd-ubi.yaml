@@ -71,9 +71,9 @@ spec:
         - name: username
           value: "dptiwari-ibm"
         - name: project
-          value: "iascable-gitops-ubi"
+          value: "ubi-helm"
         - name: repo
-          value: "iascable-gitops-ubi"
+          value: "ubi-helm"
     # Install ubi
     # New custom module linked be the custom catalog
     - name: template-terraform-gitops
